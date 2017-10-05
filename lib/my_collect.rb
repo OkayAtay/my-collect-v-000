@@ -1,4 +1,4 @@
-def my_collect(array)
+def my_collect(empty_array) do |x|
   i = 0
   while i < array.length
     new_array<<yield(array[i])
