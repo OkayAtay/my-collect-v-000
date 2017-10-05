@@ -1,4 +1,4 @@
-my_collect(empty_array) do |x|
+def my_collect(empty_array) do |x|
   i = 0
   new_array = []
     while i < empty_array.length
@@ -6,4 +6,5 @@ my_collect(empty_array) do |x|
       i += 1
     end
   new_array
+end
 end
