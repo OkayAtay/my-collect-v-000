@@ -1,10 +1,10 @@
 def my_collect(empty_array) do |x|
-  i = 0
-  new_array = []
-    while i < empty_array.length
-      new_array<<yield(empty_array[i])
-      i += 1
+    i = 0
+    new_array = []
+      while i < empty_array.length
+        new_array<<yield(empty_array[i])
+        i += 1
+      end
+    new_array
     end
-  new_array
-end
 end
