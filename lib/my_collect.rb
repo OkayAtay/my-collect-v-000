@@ -6,5 +6,4 @@ my_collect(empty_array) do |x|
       i += 1
     end
   new_array
-  end
 end
